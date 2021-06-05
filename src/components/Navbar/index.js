@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
+import { Bars, Nav, NavIcon, NavLink } from './NavbarElements';
 
 function Navbar() {
     return (
-        <div>
-            <h1>Navbar</h1>
-        </div>
-    )
+        <>
+        <Nav>
+            <NavLink to='/'>Pizza</NavLink>
+            <NavIcon>
+                <p>Menu</p>
+                <Bars />
+            </NavIcon>
+        </Nav>
+        </>
+    );
 }
 
 export default Navbar
