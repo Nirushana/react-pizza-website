@@ -2,18 +2,19 @@ import styled from "styled-components";
 import ImgBg from "../../images/pizza-3.jpg";
 
 export const HeroContainter = styled.div`
- background: linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url(${ImgBg});
- height: 100vh;
- background-position: center;
- background-size: cover; 
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+    url(${ImgBg});
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
 `;
 
 export const HeroContent = styled.div`
   height: calc(100vh-80px);
   max-height: 100%;
   width: 100%;
-  padding: 0rem calc((100vw-1300px) /2);
-  margin-top: 8rem
+  padding: 0rem calc((100vw-1300px) / 2);
+  margin-top: 8rem;
 `;
 
 export const HeroItems = styled.div`
