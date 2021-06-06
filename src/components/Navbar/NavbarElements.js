@@ -34,12 +34,12 @@ export const NavIcon = styled.div`
  color: #fff;
 
  p{
-     transform: translate(-175%, 100%);
+     transform: translate(-200%, 100%);
      font-weight: bold;
  }
 `
 
 export const Bars = styled(FaPizzaSlice)`
  font-size: 2rem;
- transform: translate(-50%, 15%);
+ transform: translate(-50%, 1%);
 `

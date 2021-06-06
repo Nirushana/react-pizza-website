@@ -1,10 +1,10 @@
 import React from 'react'
 import { SidebarContainer, Icon, CloseIcon, SidebarMenu, SidebarLink, SidebarRoute, SidebarBtnWrap } from './SidebarElements';
 
-function Sidebar() {
+function Sidebar({isOpen, toggle}) {
     return (
-        <SidebarContainer>
-            <Icon>
+        <SidebarContainer isOpen={isOpen} onClick={toggle} >
+            <Icon onClick={toggle} >
                 <CloseIcon/>
             </Icon>
             <SidebarMenu>
